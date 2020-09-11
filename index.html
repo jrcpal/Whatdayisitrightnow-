@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WHAT DAY IS IT RIGHT NOW</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="header">
+    <h1 class="letter">WHAT DAY IS IT RIGHT NOW?</h1>
+  </section>
+
+  <div class="block">
+    <a>Gregorian Calendar</a>
+    <div class="date" id="gregorian"></div>
+  </div>
+
+  <div class="block" id="hebrew">
+    <a>Hebrew Calendar</a>
+    <div class="date">
+      <script src="https://www.hebcal.com/etc/hdate-he.js"></script>
+    </br>
+      <script src="https://www.hebcal.com/etc/hdate-en.js"></script>
+    </div>
+  </div>
+
+  <div class="block">
+    <a>Islamic Calendar</a>
+   <div id="arabicDate"></div>
+   <div id="islamicDate"></div>
+  </div>
+
+
+  <div class="block">
+    <a>Chinese Calendar</a>
+    <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> 
+    <script src="https://unpkg.com/moment-lunar@0.0.4/moment-lunar.min.js"></script> 
+    <div id="chineseDate"></div>
+    <div id="englishLunarDate"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
