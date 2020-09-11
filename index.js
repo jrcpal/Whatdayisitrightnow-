@@ -22,7 +22,7 @@ document.getElementById("gregorian").innerHTML = today
   
 //Islamic Date 
 function fetchIslamicData(){
-  fetch("http://api.aladhan.com/v1/gToH")
+  fetch("https://api.aladhan.com/v1/gToH")
   .then(response => {
     return response.json();
   })
